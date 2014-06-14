@@ -11,6 +11,12 @@ Disclaimer
 ----------
 This is most definitely not the way to use Boblight and there are ways to achieve similar results using the official boblightd, but I needed somehting quick and dirty to communicate with the Arduino and filter/smooth colors and intensity.
 
+Dependencies
+------------
+* [pyserial](http://pyserial.sourceforge.net/)
+
+`pip install pyserial`
+
 How to use it
 -------------
 `$ ./boblightd.py localhost:5555`
